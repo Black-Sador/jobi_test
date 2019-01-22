@@ -1,0 +1,3 @@
+get_list_of_jobs:
+    path: /jobs
+    controller: App\Controller\JobController::index
