@@ -1,5 +1,5 @@
 # Initialisation locale
-- `composer install`
+- `composer install` (Attention : sous réserve de paquets manquant, l'installation peut échouter. Il suffit juste de mettre les paquets à jour)
 - `php bin/console server:run`
 - Accéder à `http://127.0.0.1:8000/jobs`
 
@@ -12,7 +12,7 @@
 - 10 minutes pour écrire le readme.
 
 # Ce qui a mis du temps / n'est pas fait
-- Pas eu le temps de trouver le flag de call API pour trier les résultats, du plus récent au moins récent (ou même de le faire dans le controller)
+- Pas eu le temps de trouver le flag de call API pour trier les résultats, du plus récent au moins récent (ou même de le parser dans le controller)
 - Pas eu le temps de faire une page propre
 - Utilisation d'un CDN pour plus de rapidité (proscrit habituellement)
 - Mauvaise gestion du call d'authentification. En temps normal, le token serait stocké, et de ce fait, le call serait plus rapide.
